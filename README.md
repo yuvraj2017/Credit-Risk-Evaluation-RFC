@@ -1,40 +1,57 @@
-Background
+# Loan Risk Classification Project
 
-Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market.
+## Background
 
-I used this data to create machine learning models to classify the risk level of given loans. Specifically, you will be comparing the Logistic Regression model and Random Forest Classifier.
+Lending services companies provide opportunities for individual investors to partially fund personal loans and trade notes backing these loans on a secondary market. In this project, we aim to classify the risk levels associated with loans using machine learning models.
 
-This project was completed using the following workflow: 
+## Objective
 
-Retrieve the data
+The primary goal of this project is to compare the performance of two machine learning models for classifying loan risk levels:
 
-The data is located in the Challenge Files Folder:
+- **Logistic Regression**
+- **Random Forest Classifier**
 
-lending_data.csv
+## Data
 
-Import the data using Pandas.
+The dataset used for this project is `lending_data.csv`, which contains features related to loans and their risk levels.
 
-Consider the Models
+## Workflow
 
-Compare and consider two models on this data: a Logistic Regression, and a Random Forests Classifier. 
+1. **Retrieve the Data**
 
-Fit a LogisticRegression model and RandomForestClassifier model
+   The dataset is available in the Challenge Files Folder under the filename `lending_data.csv`. 
 
-Create a Logistic Regression model, fit it to the data, and print the model's score. Do the same for a Random Forest Classifier. Choose any starting hyperparameters you like. Which model performed better? How does that compare to beginning predictions? Write down results and thoughts.
+2. **Model Consideration**
 
-**Methods used:**
+   We evaluate two models:
+   - **Logistic Regression**: A statistical model used for binary classification.
+   - **Random Forest Classifier**: An ensemble learning method that builds multiple decision trees and merges their results.
 
-Pandas
+3. **Model Fitting and Evaluation**
 
-Train_test_split
+   - **Logistic Regression**: Fit the model to the data and evaluate its performance. Assess the accuracy score and the confusion matrix.
+   - **Random Forest Classifier**: Train the model and evaluate its performance similarly. Compare the accuracy score and confusion matrix with the Logistic Regression model.
 
-LogisticRegression
+4. **Comparison and Insights**
 
-RandomForestClassifier
+   Compare the performance of both models based on their accuracy scores and confusion matrices. Document the results and insights gained from the comparison, including any observations about which model performs better and why.
 
-StandardScaler
+## Methods Used
 
-Confusion_matrix
+- **Pandas**: For data manipulation and analysis.
+- **Train-Test Split**: For splitting the dataset into training and testing sets.
+- **Logistic Regression**: For binary classification of loan risk.
+- **Random Forest Classifier**: For ensemble classification of loan risk.
+- **Standard Scaler**: For feature scaling to standardize the dataset.
+- **Confusion Matrix**: For evaluating model performance.
 
+## Results
 
+- **Logistic Regression Model Score**: [Insert results here]
+- **Random Forest Classifier Model Score**: [Insert results here]
+
+## Thoughts and Insights
+
+- Summarize the performance comparison between the two models.
+- Discuss any significant findings, such as the model's effectiveness or any unexpected results.
 
